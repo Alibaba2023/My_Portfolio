@@ -71,7 +71,7 @@ To get a local copy up and running, follow these steps.
 
 ## 🚀 Live Demo
 
-[link] (https://alibaba2023.github.io/Portfolio/)
+[link] (https://alibaba2023.github.io/My_Portfolio/)
 
 ### Prerequisites
 
