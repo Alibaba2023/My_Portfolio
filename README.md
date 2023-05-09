@@ -69,6 +69,10 @@ To get a local copy up and running, follow these steps.
 1. Go to this URL link: https://github.com/Alibaba2023/Portfolio.git
 2. clone the repo and start working on it.
 
+## 🚀 Live Demo
+
+[link] (https://alibaba2023.github.io/Portfolio/)
+
 ### Prerequisites
 
 In order to run this project you need:
