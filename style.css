@@ -30,7 +30,7 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1px;
 }
 
 .heading-tertiary {
@@ -371,7 +371,7 @@ body {
 }
 
 .contact-message {
-  background-color: hwb(0 95% 5%);
+  background-color: #f8f9fa;
   border: none;
   font-size: 1.6rem;
   color: #3c3a39;
@@ -379,7 +379,7 @@ body {
 
 .submit-btn {
   color: #fff;
-  font: 2.2rem;
+  font-size: 2.2rem;
   display: inline-block;
   background-color: #ff6b00;
   width: 12rem;
@@ -493,10 +493,6 @@ footer {
     flex-shrink: 0;
   }
 
-  .recent-work-text-box {
-    flex-basis: 0.8fr;
-  }
-
   .features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -585,7 +581,7 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 3.2rem;
-    letter-spacing: 0.3;
+    letter-spacing: 0.3px;
   }
 
   .btn-inline-block {
