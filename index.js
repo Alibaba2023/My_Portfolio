@@ -1,1 +1,2 @@
-let ali = 'Ali';
+const ali = 'Ali';
+console.log(ali);
