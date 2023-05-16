@@ -30,7 +30,7 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1px;
 }
 
 .heading-tertiary {
@@ -87,13 +87,64 @@ body {
   padding-bottom: 0.6rem;
 }
 
+.header-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  text-decoration: none;
+}
+
+.links {
+  text-decoration: none;
+}
+
 .nav-bar-list {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-mobile {
+  display: block;
+  width: 100%;
+  height: 95vh;
+  background-color: #3c3a39;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 2.4rem;
+  padding-top: 4.8rem;
+}
+
+.menu-mobile a {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #fff5e1;
+  padding: 1.2rem;
+  border-bottom: solid 1px #6f6c6b;
+  margin-top: 1.2rem;
+}
+
+.close {
+  position: absolute;
+  right: 2.4rem;
+  top: 2.4rem;
+}
+
+.menu-mobile .mail {
   display: none;
 }
 
 .header-box {
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .headline-container {
@@ -371,7 +422,7 @@ body {
 }
 
 .contact-message {
-  background-color: hwb(0 95% 5%);
+  background-color: #f8f9fa;
   border: none;
   font-size: 1.6rem;
   color: #3c3a39;
@@ -379,7 +430,7 @@ body {
 
 .submit-btn {
   color: #fff;
-  font: 2.2rem;
+  font-size: 2.2rem;
   display: inline-block;
   background-color: #ff6b00;
   width: 12rem;
@@ -417,6 +468,22 @@ footer {
     width: 80%;
   }
 
+  .menu-box {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  .menu a {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
   .nav-bar-list {
     display: flex;
     flex-direction: row;
@@ -439,10 +506,6 @@ footer {
     font-size: 1.4rem;
     font-weight: 600;
     text-decoration: none;
-  }
-
-  .menu-box {
-    display: none;
   }
 
   .section-headline .container {
@@ -491,10 +554,6 @@ footer {
   .recent-work-img-box {
     display: inline-block;
     flex-shrink: 0;
-  }
-
-  .recent-work-text-box {
-    flex-basis: 0.8fr;
   }
 
   .features {
@@ -585,7 +644,7 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 3.2rem;
-    letter-spacing: 0.3;
+    letter-spacing: 0.3px;
   }
 
   .btn-inline-block {
