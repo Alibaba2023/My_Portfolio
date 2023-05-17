@@ -87,6 +87,32 @@ body {
   padding-bottom: 0.6rem;
 }
 
+.transparent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.container-popup {
+  width: 80%;
+  background-color: #f4f1f0;
+  padding: 2rem;
+  margin: 5% auto;
+}
+
+.padding-bottom {
+  padding-bottom: 2rem;
+}
+
+.centering {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-container {
   justify-content: space-between;
   align-items: center;
