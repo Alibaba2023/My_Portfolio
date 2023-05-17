@@ -24,3 +24,67 @@ menuItem.forEach((element) => {
     menu.classList.remove('menu-mobile');
   });
 });
+//JS Objects;
+const Objects = [{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+},
+{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+},
+{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+},
+{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+},
+{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+},
+{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+},
+{
+  img: img/filename,
+  title: work_section,
+  tags: ['','',''],
+  paragraph: work_para,
+  tech: ['','',''],
+  source: 'https://github.com/Alibaba2023/My_Portfolio/',
+  livelink: 'https://alibaba2023.github.io/My_Portfolio/'
+}];
