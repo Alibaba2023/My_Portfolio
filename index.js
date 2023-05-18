@@ -21,7 +21,7 @@ close.addEventListener('click', () => {
 
 menuItem.forEach((element) => {
   element.addEventListener('click', () => {
-    menu.classList.remove("menu-mobile");
+    menu.classList.remove('menu-mobile');
   });
 });
 
