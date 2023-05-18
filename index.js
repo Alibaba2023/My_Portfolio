@@ -101,7 +101,7 @@ const featureCard = [
   },
 ];
 
-const feature_card_Multi_Post = (data, i) => `
+const featureCardMultiPost = (data, i) => `
 <div class="work-header">
 <div class-"work-header">
 <div class="work-heading-box flex">
@@ -139,7 +139,7 @@ const feature_card_Multi_Post = (data, i) => `
       </div>
 `;
 
-const feature_card__1 = (data, i) => `
+const featurecardFrist = (data, i) => `
 <div class="features flex">
 <div id="feature--${i}">
   <div class="first--card feature-card">
@@ -152,7 +152,7 @@ const feature_card__1 = (data, i) => `
     <ul class="languages-list flex">
       ${data.tech
       .map(
-        (detail, k) =>
+        (detail) =>
           `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
       )
       .join("")}
@@ -167,7 +167,7 @@ const feature_card__1 = (data, i) => `
 </div>
 `;
 
-const popup_window = (data) => `
+const popupWindow = (data) => `
 <div class="container-popup">
 <div class="popup">
 <div class="header-container flex padding-bottom">
@@ -177,7 +177,7 @@ const popup_window = (data) => `
 <ul class="languages-list flex padding-bottom">
 ${data.tech
   .map(
-    (detail, k) =>
+    (detail) =>
       `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
   )
   .join("")}
@@ -229,12 +229,12 @@ ${data.tech
 </div>
 `;
 
-const genral_work_container = document.querySelector('.work-container');
+const genralWorkContainer = document.querySelector('.work-container');
 
-feature_card.forEach((data, i) => {
+featureCard.forEach((data, i) => {
   if (i === 0) {
-    genral_work_container.innerHTML += feature_card_Multi_Post(data, i);
+    genralWorkContainer.innerHTML += featureCardMultiPost(data, i);
   } else {
-    genral_work_container.innerHTML += feature_card__1(data, i);
+    genralWorkContainer.innerHTML += featureCardFirst(data, i);
   }
 });
