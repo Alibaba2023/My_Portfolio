@@ -123,11 +123,10 @@ const feature_card_Multi_Post = (data, i) => `
       </p>
       <ul class="languages-list flex">
       ${data.tech
-        .map(
-          (detail, k) =>
-            `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`
-        )
-        .join("")}
+      .map((detail, k) =>
+          `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`
+      )
+      .join("")}
       </ul>
       <a href="${
         data.sourcelink
@@ -152,11 +151,11 @@ const feature_card__1 = (data, i) => `
     </p>
     <ul class="languages-list flex">
       ${data.tech
-        .map(
-          (detail, k) =>
-            `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
-        )
-        .join("")}
+      .map(
+        (detail, k) =>
+          `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
+      )
+      .join("")}
     </ul>
   </div>
   <a href="${
