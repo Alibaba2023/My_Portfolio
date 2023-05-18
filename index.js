@@ -138,8 +138,8 @@ const featureCardMultiPost = (data, i) => `
     ${data.tech
     .map(
       (detail) =>
-        `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`)
-    .join("")}
+        `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`).join("")
+      }
     </ul>
     <a href="${data.livelink}"
     content-id="${i}" class="btn-popup btn btn-inline-block recent-btn">
@@ -165,8 +165,8 @@ const featureCardFirst = (data, i) => `
     ${data.tech
     .map(
       (detail) =>
-        `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`)
-    .join("")}
+        `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`).join("")
+    }
     </ul>
     </div>
     <a href="${data.livelink}"
@@ -249,7 +249,7 @@ btnSeeProject.forEach((element, index) => {
     e.preventDefault();
 
     const cardId = index;
-    popupWindowContainer.innerHTML = popup_window(feature_card[cardId]);
+    popupWindowContainer.innerHTML = popupWindow(featureCard[cardId]);
     popupWindowContainer.classList.add("open-modal");
     blurBack.classList.add("blur");
 
