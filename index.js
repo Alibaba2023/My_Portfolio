@@ -21,87 +21,87 @@ close.addEventListener('click', () => {
 
 menuItem.forEach((element) => {
   element.addEventListener('click', () => {
-    menu.classList.remove('menu-mobile');
+    menu.classList.remove("menu-mobile");
   });
 });
 
 // Card details in array
-const featureCard = [
+const feature_card = [
   {
-    id_card: '0',
-    title: 'Multi-Post Stories',
-    work_section_img: './img/Img Placeholderwork-image.png',
-    card_title: 'Multi-Post Stories',
+    id_card: "0",
+    title: "Multi-Post Stories",
+    work_section_img: "./img/Img Placeholderwork-image.png",
+    card_title: "Multi-Post Stories",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.`,
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
-    tech: ['HTML', 'Bootstrap', 'Ruby on rails'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
+    tech: ["HTML", "Bootstrap", "Ruby on rails"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
   {
-    id_card: '1',
-    title: 'feature-card--1',
-    work_section_img: './img/first-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    id_card: "1",
+    title: "feature-card--1",
+    work_section_img: "./img/first-background.svg",
+    card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
   {
-    id_card: '2',
-    title: 'feature-card--2',
-    work_section_img: './img/second-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    id_card: "2",
+    title: "feature-card--2",
+    work_section_img: "./img/second-background.svg",
+    card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
   {
-    id_card: '3',
-    title: 'feature-card--3',
-    work_section_img: './img/third-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    id_card: "3",
+    title: "feature-card--3",
+    work_section_img: "./img/third-background.svg",
+    card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
   {
-    id_card: '4',
-    title: 'feature-card--4',
-    work_section_img: './img/first-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    id_card: "4",
+    title: "feature-card--4",
+    work_section_img: "./img/first-background.svg",
+    card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
   {
-    id_card: '5',
-    title: 'feature-card--5',
-    work_section_img: './img/second-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    id_card: "5",
+    title: "feature-card--5",
+    work_section_img: "./img/second-background.svg",
+    card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
   {
-    id_card: '6',
-    title: 'feature-card--6',
-    work_section_img: './img/third-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    id_card: "6",
+    title: "feature-card--6",
+    work_section_img: "./img/third-background.svg",
+    card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    livelink: "https://github.com/Alibaba2023/My_Portfolio",
+    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
   },
 ];
 
-const featureCardMultiPost = (data, i) => `
+const feature_card_Multi_Post = (data, i) => `
 <div class="work-header">
 <div class-"work-header">
 <div class="work-heading-box flex">
@@ -123,10 +123,11 @@ const featureCardMultiPost = (data, i) => `
       </p>
       <ul class="languages-list flex">
       ${data.tech
-      .map((detail, k) =>
-          `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`
-      )
-      .join("")}
+        .map(
+          (detail) =>
+            `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`
+        )
+        .join("")}
       </ul>
       <a href="${
         data.sourcelink
@@ -139,7 +140,7 @@ const featureCardMultiPost = (data, i) => `
       </div>
 `;
 
-const featurecardFrist = (data, i) => `
+const feature_card__1 = (data, i) => `
 <div class="features flex">
 <div id="feature--${i}">
   <div class="first--card feature-card">
@@ -151,11 +152,11 @@ const featurecardFrist = (data, i) => `
     </p>
     <ul class="languages-list flex">
       ${data.tech
-      .map(
-        (detail) =>
-          `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
-      )
-      .join("")}
+        .map(
+          (detail) =>
+            `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
+        )
+        .join("")}
     </ul>
   </div>
   <a href="${
@@ -167,7 +168,7 @@ const featurecardFrist = (data, i) => `
 </div>
 `;
 
-const popupWindow = (data) => `
+const popup_window = (data) => `
 <div class="container-popup">
 <div class="popup">
 <div class="header-container flex padding-bottom">
@@ -229,12 +230,12 @@ ${data.tech
 </div>
 `;
 
-const genralWorkContainer = document.querySelector('.work-container');
+const genral_work_container = document.querySelector('.work-container');
 
-featureCard.forEach((data, i) => {
+feature_card.forEach((data, i) => {
   if (i === 0) {
-    genralWorkContainer.innerHTML += featureCardMultiPost(data, i);
+    genral_work_container.innerHTML += feature_card_Multi_Post(data, i);
   } else {
-    genralWorkContainer.innerHTML += featureCardFirst(data, i);
+    genral_work_container.innerHTML += feature_card__1(data, i);
   }
 });
