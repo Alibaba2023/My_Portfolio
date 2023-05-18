@@ -24,6 +24,7 @@ menuItem.forEach((element) => {
     menu.classList.remove("menu-mobile");
   });
 });
+
 // Card details in array
 const feature_card = [
   {
@@ -52,16 +53,6 @@ const feature_card = [
     id_card: "2",
     title: "feature-card--2",
     work_section_img: "./img/second-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
-  },
-  {
-    id_card: "3",
-    title: "feature-card--3",
-    work_section_img: "./img/third-background.svg",
     card_title: "Profesional Art Printing Data",
     card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
     tech: ["HTML", "Bootstrap", "Ruby"],
