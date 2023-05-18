@@ -87,12 +87,12 @@ body {
   padding-bottom: 0.6rem;
 }
 
-.transparent {
+.transparent-1 {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
 }
 
 .container-popup {
@@ -307,6 +307,41 @@ body {
   padding-bottom: 2rem;
 }
 
+.centering {
+  text-decoration: none;
+}
+
+.open-modal {
+  width: 90%;
+  height: 90vh;
+  background-color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.6rem;
+  padding-bottom: 2.4rem;
+  margin: auto;
+  z-index: 5;
+  box-shadow: 0 0 20px rgb(84, 84, 84);
+}
+
+.Popup-window-container {
+  overflow: scroll;
+}
+
+.dark-color {
+  color: #1c1a19;
+}
+
+.blur {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
 #feature--1,
 #feature--2,
 #feature--3,
@@ -318,12 +353,11 @@ body {
 }
 
 .feature-card {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    );
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
   padding: 2.4rem 1.2rem;
   display: flex;
   flex-direction: column;
@@ -591,6 +625,10 @@ footer {
   .recent-work-img-box {
     display: inline-block;
     flex-shrink: 0;
+  }
+
+  .Popup-window-container {
+    overflow: hidden;
   }
 
   .work-container {
