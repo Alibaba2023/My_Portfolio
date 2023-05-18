@@ -1,26 +1,26 @@
 // javascript code
-const menuButton = document.querySelector(".menu-icon");
-const menu = document.querySelector(".menu");
-const close = document.createElement("li");
-close.className = "close";
-const closeIcon = document.createElement("img");
-closeIcon.className = "close-icon";
-closeIcon.src = "./img/Iconclose-icon.png";
+const menuButton = document.querySelector('.menu-icon');
+const menu = document.querySelector('.menu');
+const close = document.createElement('li');
+close.className = 'close';
+const closeIcon = document.createElement('img');
+closeIcon.className = 'close-icon';
+closeIcon.src = './img/Iconclose-icon.png';
 close.append(closeIcon);
-const menuItem = document.querySelectorAll(".menu-item");
+const menuItem = document.querySelectorAll('.menu-item');
 
-menuButton.addEventListener("click", () => {
-  menu.classList.add("menu-mobile");
+menuButton.addEventListener('click', () => {
+  menu.classList.add('menu-mobile');
   menu.append(close);
 });
 
-close.addEventListener("click", () => {
-  menu.classList.remove("menu-mobile");
+close.addEventListener('click', () => {
+  menu.classList.remove('menu-mobile');
   closeIcon.remove();
 });
 
 menuItem.forEach((element) => {
-  element.addEventListener("click", () => {
+  element.addEventListener('click', () => {
     menu.classList.remove("menu-mobile");
   });
 });
@@ -229,7 +229,7 @@ ${data.tech
 </div>
 `;
 
-const genral_work_container = document.querySelector(".work-container");
+const genral_work_container = document.querySelector('.work-container');
 
 feature_card.forEach((data, i) => {
   if (i === 0) {
