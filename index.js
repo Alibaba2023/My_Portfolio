@@ -172,10 +172,9 @@ const featureCardFirst = (data, i) => `
     <ul class="languages-list flex">
     ${data.tech
       .map(
-        (detail) =>
-          `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
-      )
-      .join()}
+        (detail) => `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
+      ).join()
+    }
     </ul>
     </div>
     <a href="${data.livelink}"
