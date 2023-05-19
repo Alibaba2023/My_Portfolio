@@ -276,5 +276,5 @@ submitForm.addEventListener('submit',(e) => {
     errorText.style.display = 'none'
   }
 });
-// Data Preservation in Browser,
-const Data = document.getElementById('');
+
+// Data Preservation in Browser
