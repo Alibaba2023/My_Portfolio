@@ -144,11 +144,9 @@ const featureCardMultiPost = (data, i) => `
     ${data.tech
     .map(
       (detail) => `<li><a class='language' href='#'><p class='language-feature drak-color'>${detail}</p></a></li>`)
-      .join('')}
+    .join('')}
         </ul>
-        <a href='${
-          data.livelink
-        }' content-id='${i}' class='btn-popup btn btn-inline-block recent-btn'>
+        <a href='${data.livelink}' content-id='${i}' class='btn-popup btn btn-inline-block recent-btn'>
           <p>See project</p>
         </a>
       </div>
@@ -170,10 +168,10 @@ const featureCardFirst = (data, i) => `
     </p>
     <ul class="languages-list flex">
     ${data.tech
-      .map(
-        (detail) => `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
-      ).join()
-    }
+    .map(
+      (detail) => `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`
+    ).join()
+}
     </ul>
     </div>
     <a href="${data.livelink}"
@@ -191,11 +189,11 @@ const popupWindow = (data) => `
     </div>
     <ul class="languages-list flex padding-bottom">
     ${data.tech
-      .map(
-        (detail) =>
-          `<li><a class="language" href="#"><p class="drak-color">${detail}</p></a></li>`
-      )
-      .join('')}
+    .map(
+      (detail) =>
+        `<li><a class="language" href="#"><p class="drak-color">${detail}</p></a></li>`
+    )
+    .join('')}
     </ul>
     <div class="multi-post">
     <div class="recent-work-img-box padding-bottom">
