@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   margin: 0 auto;
@@ -26,7 +26,7 @@ body {
 }
 
 .description-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
@@ -34,7 +34,7 @@ body {
 }
 
 .heading-tertiary {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 4.4rem;
@@ -149,7 +149,7 @@ body {
 
 .menu-mobile a {
   display: block;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 3.2rem;
   color: #fff5e1;
@@ -187,7 +187,7 @@ body {
 }
 
 .heading-primary {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 5.6rem;
   line-height: 6.4rem;
@@ -197,7 +197,7 @@ body {
 }
 
 .headline-support {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   letter-spacing: 0.15rem;
   font-size: 2.4rem;
@@ -233,7 +233,7 @@ body {
 }
 
 .recent-work-heading {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-size: 4rem;
   font-weight: 400;
   line-height: 5.2rem;
@@ -351,12 +351,11 @@ body {
 }
 
 .feature-card {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    );
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
   padding: 2.4rem 1.2rem;
   display: flex;
   flex-direction: column;
@@ -392,7 +391,7 @@ body {
 }
 
 .heading-about-me {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 7.2rem;
   line-height: 6.4rem;
@@ -413,7 +412,7 @@ body {
 }
 
 .skill-header {
-  font-family: "InaiMathi", sans-serif;
+  font-family: 'InaiMathi', sans-serif;
   justify-content: center;
   align-items: center;
   font-size: 3.2rem;
@@ -457,7 +456,7 @@ body {
 }
 
 .contact-section__title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 3.2rem;
   color: #172b4d;
   font-weight: 700;
@@ -569,7 +568,7 @@ footer {
   }
 
   .menu a {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
@@ -748,7 +747,7 @@ footer {
   }
 
   .description-text {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 3.2rem;
