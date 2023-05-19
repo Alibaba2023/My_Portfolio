@@ -143,7 +143,8 @@ const featureCardMultiPost = (data, i) => `
         <ul class='languages-list flex'>
     ${data.tech
     .map(
-      (detail) => `<li><a class='language' href='#'><p class='language-feature drak-color'>${detail}</p></a></li>`)
+      (detail) => `<li><a class='language' href='#'><p class='language-feature drak-color'>${detail}</p></a></li>`
+    )
     .join('')}
         </ul>
         <a href='${data.livelink}' content-id='${i}' class='btn-popup btn btn-inline-block recent-btn'>
@@ -190,8 +191,7 @@ const popupWindow = (data) => `
     <ul class="languages-list flex padding-bottom">
     ${data.tech
     .map(
-      (detail) =>
-        `<li><a class="language" href="#"><p class="drak-color">${detail}</p></a></li>`
+      (detail) => `<li><a class="language" href="#"><p class="drak-color">${detail}</p></a></li>`
     )
     .join('')}
     </ul>
