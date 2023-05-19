@@ -532,6 +532,16 @@ footer {
   color: #1c1a19;
 }
 
+.btns-popup {
+  display: flex;
+  gap:3rem ;
+}
+
+.padding-2px {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
 @media screen and (min-width: 786px) {
   .container {
     margin: 0 auto;
