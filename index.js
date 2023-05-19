@@ -160,7 +160,7 @@ const featureCardFirst = (data, i) => `
     .map(
       (detail) => `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`,
     )
-    .join("")
+    .join('')
 }
     </ul>
     </div>
@@ -182,7 +182,7 @@ const popupWindow = (data) => `
     .map(
       (detail) => `<li><a class="language" href="#"><p class="drak-color">${detail}</p></a></li>`,
     )
-    .join("")
+    .join('')
 }
     </ul>
     <div class="multi-post">
@@ -227,7 +227,7 @@ const popupWindow = (data) => `
     </div>
     </div>`;
 
-const genralWorkContainer = document.querySelector(".work-container");
+const genralWorkContainer = document.querySelector('.work-container');
 featureCard.forEach((data, i) => {
   if (i === 0) {
     genralWorkContainer.innerHTML += featureCardMultiPost(data, i);
@@ -236,24 +236,24 @@ featureCard.forEach((data, i) => {
   }
 });
 
-const btnSeeProject = document.querySelectorAll(".btn-popup");
-const popupWindowContainer = document.querySelector(".Popup-window-container");
-const blurBack = document.querySelector(".background-back");
+const btnSeeProject = document.querySelectorAll('.btn-popup');
+const popupWindowContainer = document.querySelector('.Popup-window-container');
+const blurBack = document.querySelector('.background-back');
 
 btnSeeProject.forEach((element, index) => {
-  element.addEventListener("click", (e) => {
+  element.addEventListener('click', (e) => {
     e.preventDefault();
 
     const cardId = index;
     popupWindowContainer.innerHTML = popupWindow(featureCard[cardId]);
-    popupWindowContainer.classList.add("open-modal");
-    blurBack.classList.add("blur");
+    popupWindowContainer.classList.add('open-modal');
+    blurBack.classList.add('blur');
 
-    const closeBtn = document.querySelector(".close-btn-popup");
-    closeBtn.addEventListener("click", () => {
-      popupWindowContainer.classList.remove("open-modal");
-      popupWindowContainer.innerHTML = "";
-      blurBack.classList.remove("blur");
+    const closeBtn = document.querySelector('.close-btn-popup');
+    closeBtn.addEventListener('click', () => {
+      popupWindowContainer.classList.remove('open-modal');
+      popupWindowContainer.innerHTML = '';
+      blurBack.classList.remove('blur');
     });
   });
 });
