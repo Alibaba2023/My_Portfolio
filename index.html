@@ -231,7 +231,7 @@
               required
             />
             <input
-              class="contact-input"
+              class="contact-input email-form"
               type="email"
               name="contact-email"
               placeholder="Email address"
@@ -246,10 +246,13 @@
               maxlength="500"
               required
             ></textarea>
+            <div class="validation-box">
+              <p class="error-text display-none">Invalid Email: You can only enter email in lowercase!</p>
+            </div>
             <input
               type="submit"
               value="Get in touch"
-              class="btn btn-inline-block submit-btn"
+              class="submit-btn btn btn-inline-block sumit-btn-form"
             />
           </form>
         </div>

@@ -175,7 +175,7 @@ const featureCardFirst = (data, i) => `
 const popupWindow = (data) => `
     <div class="header-container flex padding-bottom">
     <h2 class="recent-work-heading">${data.card_title}</h2>
-    <img src="/img/Iconclose-icon.png" class="close-btn-popup" alt="close-btn">
+    <img src="./img/Iconclose-icon.png" class="close-btn-popup" alt="close-btn">
     </div>
     <ul class="languages-list flex padding-bottom">
     ${data.tech
@@ -256,4 +256,23 @@ btnSeeProject.forEach((element, index) => {
       blurBack.classList.remove('blur');
     });
   });
+});
+
+const submitForm = document.querySelector('.contact-form');
+const errorText = document.querySelector('.error-text');
+
+submitForm.addEventListener('submit',(e) => {
+
+  const emailInput = document.querySelector('.email-form').value;
+
+  if (emailInput.toLowerCase() !== emailInput) {
+
+    e.preventDefault();
+    errorText.classList.remove('.display-none');
+    errorText.style.display = 'block';
+    
+  } else {
+
+    errorText.style.display = 'none'
+  }
 });
