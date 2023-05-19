@@ -1,151 +1,148 @@
-    const menuButton = document.querySelector('.menu-icon');
-    const menu = document.querySelector('.menu');
-    const close = document.createElement('li');
-    close.className = 'close';
-    const closeIcon = document.createElement('img');
-    closeIcon.className = 'close-icon';
-    closeIcon.src = './img/Iconclose-icon.png';
-    close.append(closeIcon);
-    const menuItem = document.querySelectorAll('.menu-item');
+// javascript code
+const menuButton = document.querySelector('.menu-icon');
+const menu = document.querySelector('.menu');
+const close = document.createElement('li');
+close.className = 'close';
+const closeIcon = document.createElement('img');
+closeIcon.className = 'close-icon';
+closeIcon.src = './img/Iconclose-icon.png';
+close.append(closeIcon);
+const menuItem = document.querySelectorAll('.menu-item');
 
-    menuButton.addEventListener('click', () => {
-    menu.classList.add('menu-mobile');
-    menu.append(close);
-    });
+menuButton.addEventListener('click', () => {
+  menu.classList.add('menu-mobile');
+  menu.append(close);
+});
 
-    close.addEventListener('click', () => {
+close.addEventListener('click', () => {
+  menu.classList.remove('menu-mobile');
+  closeIcon.remove();
+});
+
+menuItem.forEach((element) => {
+  element.addEventListener('click', () => {
     menu.classList.remove('menu-mobile');
-    closeIcon.remove();
-    });
+  });
+});
 
-    menuItem.forEach((element) => {
-    element.addEventListener('click', () => {
-    menu.classList.remove('menu-mobile');
-    });
-    });
-
-    // Card details in array
-    const featureCard = [
-    {
+// Card details in array
+const featureCard = [
+  {
     id_card: '0',
     title: 'Multi-Post Stories',
     work_section_img: './img/Img Placeholderwork-image.png',
     card_title: 'Multi-Post Stories',
     card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby on rails'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    },
-  {
-  id_card: '1',
-  title: 'feature-card--1',
-  work_section_img: './img/first-background.svg',
-  card_title: 'Profesional Art Printing Data',
-  card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-  long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
-  tech: ['HTML', 'Bootstrap', 'Ruby'],
-  livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-  sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
-    id_card: "2",
-    title: "feature-card--2",
-    work_section_img: "./img/second-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+    id_card: '1',
+    title: 'feature-card--1',
+    work_section_img: './img/first-background.svg',
+    card_title: 'Profesional Art Printing Data',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
-    id_card: "3",
-    title: "feature-card--3",
-    work_section_img: "./img/third-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+    id_card: '2',
+    title: 'feature-card--2',
+    work_section_img: './img/second-background.svg',
+    card_title: 'Profesional Art Printing Data',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
-    id_card: "4",
-    title: "feature-card--4",
-    work_section_img: "./img/first-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+    id_card: '3',
+    title: 'feature-card--3',
+    work_section_img: './img/third-background.svg',
+    card_title: 'Profesional Art Printing Data',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
-    id_card: "5",
-    title: "feature-card--5",
-    work_section_img: "./img/second-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+    id_card: '4',
+    title: 'feature-card--4',
+    work_section_img: './img/first-background.svg',
+    card_title: 'Profesional Art Printing Data',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
-    id_card: "6",
-    title: "feature-card--6",
-    work_section_img: "./img/third-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.`,
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+    id_card: '5',
+    title: 'feature-card--5',
+    work_section_img: './img/second-background.svg',
+    card_title: 'Profesional Art Printing Data',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+  },
+  {
+    id_card: '6',
+    title: 'feature-card--6',
+    work_section_img: './img/third-background.svg',
+    card_title: 'Profesional Art Printing Data',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
 ];
 
 const featureCardMultiPost = (data, i) => `
-    <div class="work-header">
-    <div class-"work-header">
-    <div class="work-heading-box flex">
-    <h2 class="recent-work-heading">My Recent Works</h2>
-    <span class="border-line-bottom"></span>
+<div class='work-header'>
+  <div class-'work-header'>
+    <div class='work-heading-box flex'>
+      <h2 class='recent-work-heading'>My Recent Works</h2>
+      <span class='border-line-bottom'></span>
     </div>
-    <div class="multi-post">
-    <div class="recent-work-img-box">
-    <img
-    class="work-img"
-    src="${data.work_section_img}"
-    alt="A girl during yuga"
-    />
+    <div class='multi-post'>
+      <div class='recent-work-img-box'>
+        <img
+          class='work-img'
+          src='${data.work_section_img}'
+          alt='A girl during yuga'
+        />
+      </div>
+      <div class='recent-work-text-box'>
+        <h3 class='heading-tertiary'>${data.card_title}</h3>
+        <p class='work-description description-text'>
+          ${data.card_description}
+        </p>
+        <ul class='languages-list flex'>
+          ${data.tech
+            .map(
+              (detail) => `<li><a class='language' href='#'><p class='language-feature drak-color'>${detail}</p></a></li>`,
+            )
+            .join('')
+          }
+        </ul>
+        <a href='${data.livelink}' content-id='${i}' class='btn-popup btn btn-inline-block recent-btn'>
+          <p>See project</p>
+        </a>
+      </div>
     </div>
-    <div class="recent-work-text-box">
-    <h3 class="heading-tertiary">${data.card_title}</h3>
-    <p class="work-description description-text">
-    ${data.card_description}
-    </p>
-    <ul class="languages-list flex">
-    ${data.tech
-    .map(
-      (detail) => `<li><a class="language" href="#"><p class="language-feature drak-color">${detail}</p></a></li>`,
-    )
-    .join("")
-}
-    </ul>
-    <a href="${data.livelink}"
-    content-id="${i}" class="btn-popup btn btn-inline-block recent-btn">
-    <p>See project</p>
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
+  </div>
+</div>
+
 `;
 
 const featureCardFirst = (data, i) => `
