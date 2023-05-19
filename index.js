@@ -32,7 +32,8 @@ const featureCard = [
     title: 'Multi-Post Stories',
     work_section_img: './img/Img Placeholderwork-image.png',
     card_title: 'Multi-Post Stories',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     long_description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby on rails'],
@@ -44,8 +45,10 @@ const featureCard = [
     title: 'feature-card--1',
     work_section_img: './img/first-background.svg',
     card_title: 'Profesional Art Printing Data',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
@@ -55,8 +58,10 @@ const featureCard = [
     title: 'feature-card--2',
     work_section_img: './img/second-background.svg',
     card_title: 'Profesional Art Printing Data',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
@@ -66,8 +71,10 @@ const featureCard = [
     title: 'feature-card--3',
     work_section_img: './img/third-background.svg',
     card_title: 'Profesional Art Printing Data',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
@@ -77,8 +84,10 @@ const featureCard = [
     title: 'feature-card--4',
     work_section_img: './img/first-background.svg',
     card_title: 'Profesional Art Printing Data',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
@@ -88,8 +97,10 @@ const featureCard = [
     title: 'feature-card--5',
     work_section_img: './img/second-background.svg',
     card_title: 'Profesional Art Printing Data',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
@@ -99,8 +110,10 @@ const featureCard = [
     title: 'feature-card--6',
     work_section_img: './img/third-background.svg',
     card_title: 'Profesional Art Printing Data',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+    card_description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    long_description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     livelink: 'https://github.com/Alibaba2023/My_Portfolio',
     sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
@@ -132,8 +145,7 @@ const featureCardMultiPost = (data, i) => `
     .map(
       (detail) => `<li><a class='language' href='#'><p class='language-feature drak-color'>${detail}</p></a></li>`,
     )
-    .join('')
-}
+    .join('')}
         </ul>
         <a href='${data.livelink}' content-id='${i}' class='btn-popup btn btn-inline-block recent-btn'>
           <p>See project</p>
@@ -159,8 +171,7 @@ const featureCardFirst = (data, i) => `
     ${data.tech
     .map(
       (detail) => `<li><a class="language" href="#"><p class="language-feature">${detail}</p></a></li>`,
-    )
-    .join('')
+    ).join()
 }
     </ul>
     </div>
@@ -175,15 +186,14 @@ const featureCardFirst = (data, i) => `
 const popupWindow = (data) => `
     <div class="header-container flex padding-bottom">
     <h2 class="recent-work-heading">${data.card_title}</h2>
-    <img src="/img/Iconclose-icon.png" class="close-btn-popup" alt="close-btn">
+    <img src="./img/Iconclose-icon.png" class="close-btn-popup" alt="close-btn">
     </div>
     <ul class="languages-list flex padding-bottom">
     ${data.tech
     .map(
       (detail) => `<li><a class="language" href="#"><p class="drak-color">${detail}</p></a></li>`,
     )
-    .join('')
-}
+    .join('')}
     </ul>
     <div class="multi-post">
     <div class="recent-work-img-box padding-bottom">
@@ -256,4 +266,19 @@ btnSeeProject.forEach((element, index) => {
       blurBack.classList.remove('blur');
     });
   });
+});
+
+const submitForm = document.querySelector('.contact-form');
+const errorText = document.querySelector('.error-text');
+
+submitForm.addEventListener('submit', (e) => {
+  const emailInput = document.querySelector('.email-form').value;
+
+  if (emailInput.toLowerCase() !== emailInput) {
+    e.preventDefault();
+    errorText.classList.remove('.display-none');
+    errorText.style.display = 'block';
+  } else {
+    errorText.style.display = 'none';
+  }
 });
