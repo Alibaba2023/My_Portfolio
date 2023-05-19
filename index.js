@@ -1,56 +1,52 @@
-// javascript code
-const menuButton = document.querySelector(".menu-icon");
-const menu = document.querySelector(".menu");
-const close = document.createElement("li");
-close.className = "close";
-const closeIcon = document.createElement("img");
-closeIcon.className = "close-icon";
-closeIcon.src = "./img/Iconclose-icon.png";
-close.append(closeIcon);
-const menuItem = document.querySelectorAll(".menu-item");
+  const menuButton = document.querySelector('.menu-icon');
+  const menu = document.querySelector('.menu');
+  const close = document.createElement('li');
+  close.className = 'close';
+  const closeIcon = document.createElement('img');
+  closeIcon.className = 'close-icon';
+  closeIcon.src = './img/Iconclose-icon.png';
+  close.append(closeIcon);
+  const menuItem = document.querySelectorAll('.menu-item');
 
-menuButton.addEventListener("click", () => {
-  menu.classList.add("menu-mobile");
+  menuButton.addEventListener('click', () => {
+  menu.classList.add('menu-mobile');
   menu.append(close);
-});
-
-close.addEventListener("click", () => {
-  menu.classList.remove("menu-mobile");
-  closeIcon.remove();
-});
-
-menuItem.forEach((element) => {
-  element.addEventListener("click", () => {
-    menu.classList.remove("menu-mobile");
   });
-});
 
-// Card details in array
-const featureCard = [
+  close.addEventListener('click', () => {
+  menu.classList.remove('menu-mobile');
+  closeIcon.remove();
+  });
+
+  menuItem.forEach((element) => {
+  element.addEventListener('click', () => {
+  menu.classList.remove('menu-mobile');
+  });
+  });
+
+  // Card details in array
+  const featureCard = [
   {
-    id_card: "0",
-    title: "Multi-Post Stories",
-    work_section_img: "./img/Img Placeholderwork-image.png",
-    card_title: "Multi-Post Stories",
-    card_description: `A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.`,
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby on rails"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+  id_card: '0',
+  title: 'Multi-Post Stories',
+  work_section_img: './img/Img Placeholderwork-image.png',
+  card_title: 'Multi-Post Stories',
+  card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+  tech: ['HTML', 'Bootstrap', 'Ruby on rails'],
+  livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+  sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
-    id_card: "1",
-    title: "feature-card--1",
-    work_section_img: "./img/first-background.svg",
-    card_title: "Profesional Art Printing Data",
-    card_description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.",
-    long_description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.",
-    tech: ["HTML", "Bootstrap", "Ruby"],
-    livelink: "https://github.com/Alibaba2023/My_Portfolio",
-    sourcelink: "https://github.com/Alibaba2023/My_Portfolio",
+  id_card: '1',
+  title: 'feature-card--1',
+  work_section_img: './img/first-background.svg',
+  card_title: 'Profesional Art Printing Data',
+  card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+  long_description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+  tech: ['HTML', 'Bootstrap', 'Ruby'],
+  livelink: 'https://github.com/Alibaba2023/My_Portfolio',
+  sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
   },
   {
     id_card: "2",
