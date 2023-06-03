@@ -11,9 +11,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[My Portfolio\] ](#-My Portfolio-)
+- [📖 My_Portfolio ](#-my_portfolio-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
@@ -32,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio] <a name="about-project"></a>
+# 📖 [My_Portfolio] <a name="My_Portfolio"></a>
 
-**[My Portfolio]** is a javaScript project.
+**[My_Portfolio]** is a javaScript project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,20 +52,18 @@
 
 ### Key Features <a name="key-features"></a>
 
-<!-- -  **[Home page]**
--  **[About Page]**
+-  **[Home page]**
 -  **[Menu Section]**
 -  **[Responsive]**
--  **[Good look and feel]** -->
+-  **[Good look and feel]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - ✅ You can see the live demo of this webpage by clicking [here](https://alibaba2023.github.io/Hardware_Pioneers/); -->
+- ✅ You can see the live demo of this webpage by clicking: [Live Demo Link](https://alibaba2023.github.io/My_Portfolio/)
 
-<!-- - [Live Demo Link](https://google.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
