@@ -1,175 +1,174 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <br/>
-
-  <h3><b>Portfolio Project</b></h3>
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <h3><b>My Portfolio</b></h3>
 
 </div>
 
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[My Portfolio\] ](#-My Portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 [Portfolio] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**[Portfolio]** This is my mobile version portfolio.
+# 📖 [My Portfolio] <a name="about-project"></a>
+
+**[My Portfolio]** is a javaScript project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-html, css, git, github.
+1. ✅ **HTML**
+2. ✅ **CSS**
+3. ✅ **JavaScript**
+4. ✅ **LightHouse**
+5. ✅ **WebHint**
+6. ✅ **Styelint**
+7. ✅ **ESLint**
+8. ✅ **Git**
+9. ✅ **Github**
 
-### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.microverse.org/">HTML5</a></li>
-    <li><a href="https://www.microverse.org/">CSS3</a></li>
-    <li><a href="https://www.microverse.org/">Git</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">VS CODE Live Server Extension</a></li>
-  </ul>
-</details>
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Header]**
-- **[Headline]**
+<!-- -  **[Home page]**
+-  **[About Page]**
+-  **[Menu Section]**
+-  **[Responsive]**
+-  **[Good look and feel]** -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-In this project best coding practices is use
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<!-- - ✅ You can see the live demo of this webpage by clicking [here](https://alibaba2023.github.io/Hardware_Pioneers/); -->
+
+<!-- - [Live Demo Link](https://google.com) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+**To get a local copy up and running, follow these steps.**
 
-1. Go to this URL link: https://github.com/Alibaba2023/Portfolio.git
-2. clone the repo and start working on it.
-
-## 🚀 Live Demo
-
-[link] (https://alibaba2023.github.io/My_Portfolio/)
+1. Download or clone this [repostory](https://github.com/Alibaba2023/My_Portfolio).
+2. Provide a browser.
+3. Open the `index.html` file using webpage browser.
 
 ### Prerequisites
 
-In order to run this project you need:
+**In order to run this project you need:**
 
-Google Chrome or other browser
+- ✔ [Git](https://git-scm.com/downloads) installed in your machine.
+- ✔ Sign in or sign up to your [Github](https://github.com/) account.
+- ✔ A professional editer such as [VS Code](https://code.visualstudio.com/download).
+- ✔ An Updated web browser such as Google Chrome, you can download it from [here](https://www.google.com/chrome/).
+- ✔ [Node.js](https://nodejs.org/en/download) installed in your machine.
+- ✔ Lighthouse.
+- ✔ Webhint
 
 ```sh
-  https://www.google.com/chrome/?brand=JJTC&gclid=CjwKCAjw9J2iBhBPEiwAErwpeSDcMFWiIQWj2u5GY6owZ7OaOHw7dYYCHW7uTR4kvYosNJYd4wt4VxoCiywQAvD_BwE&gclsrc=aw.ds
+npm init -y
+npm install --save-dev hint@7.x
+npx hint .
 ```
 
-Github Account:
+- ✔ Stylelint
 
 ```sh
-  https://github.com/
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
-Npm installed:
+- ✔ ESLint
 
 ```sh
-  https://nodejs.org/en/download
-```
-
-Git installed:
-
-```sh
-  https://git-scm.com/downloads/
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 ```
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Clone this [repository](https://github.com/Alibaba2023/My_Portfolio) to your desired folder:
+
+- Example commands:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/Alibaba2023/Portfolio.git
+  cd [YOUR FOLDER]
+  git clone git@github.com:Alibaba2023/Hardware_Pioneers.git
 ```
 
 ### Install
 
-Install this project with:
-
-Linters:
-
-Lighthouse run:
-
-```sh
-  npm install -g @lhci/cli@0.7.x
-```
-
-Webhint run
-
-```sh
- npm install --save-dev hint@7.x
-```
-
-StyleLint run:
-
-```sh
- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
+- Install this project by cloning or downloading the master branch of this [repository](https://github.com/Alibaba2023/My_Portfolio) and run `index.html` file on the root of repository.
 
 ### Usage
 
-To run the project, execute the following command:
+- To run the project, execute the following command:
 
 ```sh
-  cd Portfolio
-  index.html
+ cd [YOUR FOLDER]
+ git clone https://github.com/Alibaba2023/Awesome-Book
 ```
 
 ### Run tests
 
-To run tests, run the following command:
+1. WebHint ☑
 
-to check for styling errors:
+```
+npx hint .
+```
 
-```sh
-  npx stylelint "**/*.{css,scss}"
+2. Stylelint ☑
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+3. ESLint ☑
+
+```
+npx eslint .
 ```
 
 ### Deployment
 
-You can deploy this project using:
+**This project is deployed by the author, no permission for deployment by any other client.**
 
-Your working browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ali Baba Hussaini**
+👤 **Ali Baba Hussaini (Main Author)**
 
 - GitHub: [@Alibaba2023](https://github.com/Alibaba2023)
 - Twitter: [@AliBabaHu2023](https://twitter.com/AliBabaHu2023)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-baba-hussaini-630607267/)
-
-👤 **Arthur Emanuel G. Iturres(Code partner)**
-- GitHub: [@ITurres](https://github.com/ITurres)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,35 +176,41 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **[Client interaction]**
+- [ ] **[Deploy to a universal server]**
 
-- [ ] **[Desktop version]**
-- [ ] **[responsive ]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Alibaba2023/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/Alibaba2023/My_Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, don't forget to star.
+If you like this project, kindly drop a start for the [repository](https://github.com/Alibaba2023/My_Portfolio);
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank Microverse Team and my partiners
+I would like to thank [Microverse](https://www.microverse.org/?grsf=mohammad-a-nbtazu) for providing the opportunity for this project to be done And my family for thier support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
