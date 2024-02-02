@@ -264,7 +264,7 @@ body {
 }
 
 .work-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
   box-shadow: #1c1a19 3px 3px 20px 1px;
 }
 
