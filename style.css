@@ -340,13 +340,12 @@ body {
   backdrop-filter: blur(10px);
 }
 
-
 #feature--1 {
   background-image: url(./img/spaceXMoble.png);
   background-size: cover;
 }
 
-#feature--2{
+#feature--2 {
   background-image: url(./img/weatherMoble.png);
   background-size: cover;
 }
@@ -372,16 +371,6 @@ body {
 }
 
 .feature-card {
-  transition: all 0.4s;
-}
-
-.feature-card:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-  opacity: 0;
-  margin-bottom: 0;
-}
-
-.feature-card {
   background:
     linear-gradient(
       180.45deg,
@@ -391,7 +380,14 @@ body {
   padding: 2.4rem 1.2rem;
   display: flex;
   flex-direction: column;
+  transition: all 0.4s;
   gap: 3rem;
+}
+
+.feature-card:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  opacity: 0;
+  margin-bottom: 0;
 }
 
 .heading-feature {
