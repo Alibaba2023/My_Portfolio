@@ -264,7 +264,7 @@ body {
 }
 
 .work-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
   box-shadow: #1c1a19 3px 3px 20px 1px;
 }
 
@@ -340,13 +340,33 @@ body {
   backdrop-filter: blur(10px);
 }
 
-#feature--1,
-#feature--2,
-#feature--3,
-#feature--4,
-#feature--5,
+#feature--1 {
+  background-image: url(./img/spaceXMoble.png);
+  background-size: cover;
+}
+
+#feature--2 {
+  background-image: url(./img/weatherMoble.png);
+  background-size: cover;
+}
+
+#feature--3 {
+  background-image: url(./img/hardwarepioneersmoble.png);
+  background-size: cover;
+}
+
+#feature--4 {
+  background-image: url(./img/book\ store.png);
+  background-size: cover;
+}
+
+#feature--5 {
+  background-image: url(./img/awesomebookmoble.png);
+  background-size: cover;
+}
+
 #feature--6 {
-  background-image: url(./img/first-background.svg);
+  background-image: url(./img/mathpc.png);
   background-size: cover;
 }
 
@@ -360,7 +380,14 @@ body {
   padding: 2.4rem 1.2rem;
   display: flex;
   flex-direction: column;
+  transition: all 0.4s;
   gap: 3rem;
+}
+
+.feature-card:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  opacity: 0;
+  margin-bottom: 0;
 }
 
 .heading-feature {
@@ -664,34 +691,6 @@ footer {
 
   .languages-list {
     margin-bottom: 2rem;
-  }
-
-  #feature--1,
-  #feature--4 {
-    background-image: url(./img/first-background.svg);
-    background-size: cover;
-  }
-
-  #feature--2,
-  #feature--5 {
-    background-image: url(./img/second-background.svg);
-    background-size: cover;
-  }
-
-  #feature--3,
-  #feature--6 {
-    background-image: url(./img/third-background.svg);
-    background-size: cover;
-  }
-
-  .feature-card {
-    transition: all 0.4s;
-  }
-
-  .feature-card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-    opacity: 0;
-    margin-bottom: 0;
   }
 
   .border-line-bottom {
