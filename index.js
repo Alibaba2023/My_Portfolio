@@ -29,94 +29,95 @@ menuItem.forEach((element) => {
 const featureCard = [
   {
     id_card: '0',
-    title: 'Multi-Post Stories',
-    work_section_img: './img/Img Placeholderwork-image.png',
-    card_title: 'Multi-Post Stories',
+    title: 'Tesla Car Booking',
+    work_section_img: './img/taslaCarsPc.png',
+    fullProjectPhoto: './img/taslaCarsPc.png',
+    card_title: 'Tesla Car Booking',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'Experience streamlined car management and reservations with our React and Rails web app, allowing admins to effortlessly handle inventory while users reserve cars by model, city, and time.',
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+      'Experience streamlined car management and reservations with our React and Rails web app, allowing admins to effortlessly handle inventory while users reserve cars by model, city, and time.',
     tech: ['HTML', 'Bootstrap', 'Ruby on rails'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    livelink: 'https://tesla-car-booking-front.onrender.com/',
+    sourcelink: 'https://github.com/Alibaba2023/Tesla-car-booking-back-end',
   },
   {
     id_card: '1',
     title: 'feature-card--1',
-    work_section_img: './img/first-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    fullProjectPhoto: './img/spaceXPC.png',
+    card_title: 'Space Travelers',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+      'In this task, we will be working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. User can book the rockets.',
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+      'In this task, we will be working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    tech: ['HTML', 'Bootstrap', 'React'],
+    livelink: 'https://spacextravels.netlify.app/',
+    sourcelink: 'https://github.com/Alibaba2023/space-travelers',
   },
   {
     id_card: '2',
     title: 'feature-card--2',
-    work_section_img: './img/second-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    fullProjectPhoto: './img/weatherPC.png',
+    card_title: 'World Weather App',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+      'World Weather App is a user-friendly web application with two pages. On the first page, users can select their desired country, and on the second page, they will be presented with real-time weather conditions for the selected location.',
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+      'World Weather App is a user-friendly web application with two pages. On the first page, users can select their desired country, and on the second page, they will be presented with real-time weather conditions for the selected location. With a focus on accuracy and simplicity, it aims to provide a seamless experience for users seeking weather.',
+    tech: ['HTML', 'Bootstrap', 'React'],
+    livelink: 'https://world-weather-app.onrender.com/',
+    sourcelink: 'https://github.com/Alibaba2023/world-weather-app',
   },
   {
     id_card: '3',
     title: 'feature-card--3',
-    work_section_img: './img/third-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    fullProjectPhoto: './img/hardwarepioneers.png',
+    card_title: 'Hardware Pioneers',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+      'My HTML, CSS, and JavaScript-built project aims to raise technology awareness within the company through an interactive website.it is from a real event that occurs every year in a different country.',
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+      'My HTML, CSS, and JavaScript-built project aims to raise technology awareness within the company through an interactive website.it is from a real event that occurs every year in a different country.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    livelink: 'https://alibaba2023.github.io/Hardware_Pioneers/',
+    sourcelink: 'https://github.com/Alibaba2023/Hardware_Pioneers',
   },
   {
     id_card: '4',
     title: 'feature-card--4',
-    work_section_img: './img/first-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    fullProjectPhoto: './img/book store.png',
+    card_title: 'Book Store ',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+      'BookStore is an innovative web project designed to simplify book management for avid readers and book enthusiasts. This API-powered platform allows users to effortlessly add, organize, and remove books from their virtual bookshelves.',
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+      'BookStore is an innovative web project designed to simplify book management for avid readers and book enthusiasts. This API-powered platform allows users to effortlessly add, organize, and remove books from their virtual bookshelves.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    livelink: 'https://book-store-oti6.onrender.com/',
+    sourcelink: 'https://github.com/Alibaba2023/book-store',
   },
   {
     id_card: '5',
     title: 'feature-card--5',
-    work_section_img: './img/second-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    fullProjectPhoto: './img/awesomebookpc.png',
+    card_title: 'Awesome Book Store',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+      'Awesome-book project enables effortless book addition and removal, providing a simple way to stay organized. Responsive and nice user interface best for storing books and a great use of colors in this project.',
     long_description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
+      'Awesome-book project enables effortless book addition and removal, providing a simple way to stay organized. Responsive and nice user interface best for storing books.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    livelink: 'https://alibaba2023.github.io/Awesome-Book/',
+    sourcelink: 'https://alibaba2023.github.io/Awesome-Book/',
   },
   {
     id_card: '6',
     title: 'feature-card--6',
-    work_section_img: './img/third-background.svg',
-    card_title: 'Profesional Art Printing Data',
+    fullProjectPhoto: './img/mathpc.png',
+    card_title: 'Math Magicians',
     card_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+      'A calculator and can provide the calculated operation. Has been the industrys standard.Responsive and nice user interface best for math operations. With a ramdom quote that fetches from the API.',
     long_description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa illo eum enim. Nihil nemo adipisci ex, quos sit quisquam. Id veritatis nihil rerum quis, voluptatum porro velit! Nulla, sequi.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, aperiam et. Nobis esse et repellat quos reprehenderit laboriosam. Pariatur aut cupiditate consectetur laborum non delectus maxime laboriosam hic qui molestias.',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
-    livelink: 'https://github.com/Alibaba2023/My_Portfolio',
-    sourcelink: 'https://github.com/Alibaba2023/My_Portfolio',
+    livelink: 'https://math-magicians-hffp.onrender.com/',
+    sourcelink: 'https://github.com/Alibaba2023/math-magicians',
   },
 ];
 
@@ -199,7 +200,7 @@ const popupWindow = (data) => `
     <div class="recent-work-img-box padding-bottom">
     <img
     class="work-img"
-    src="./img/Snapshoot Portfolio.png"
+    src="${data.fullProjectPhoto}"
     alt="A girl during yuga"
     />
     </div>
