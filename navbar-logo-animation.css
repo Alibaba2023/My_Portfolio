@@ -1,0 +1,30 @@
+:root {
+    --orange: #ff6b00;
+  }
+  
+  .logo-box {
+    animation: rotateLogo 1.5s ease-in;
+    animation-delay: 0.5s;
+    padding: 0.5rem 0 0.4rem 0;
+  }
+  
+  @keyframes rotateLogo {
+    0% {
+      transform: rotate(-180deg);
+      border-bottom: 1px solid var(--orange);
+    }
+  
+    25% {
+      border-bottom: 3px solid var(--orange);
+    }
+  
+    50% {
+      transform: rotate(360deg) scale(1.2);
+      box-shadow: var(--orange) 2px 2px 20px 1px;
+    }
+  
+    100% {
+      transform: scale(1.1);
+      box-shadow: var(--orange) 2px 2px 20px 1px;
+    }
+  }
