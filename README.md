@@ -1,213 +1,54 @@
-<a name="readme-top"></a>
+# React + TypeScript + Vite
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h3><b>My Portfolio</b></h3>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-</div>
+Currently, two official plugins are available:
 
-<!-- TABLE OF CONTENTS -->
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# 📗 Table of Contents
+## Expanding the ESLint configuration
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 My_Portfolio ](#-my_portfolio-)
-  - [🛠 Built With ](#-built-with-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [My_Portfolio] <a name="My_Portfolio"></a>
-
-**[My_Portfolio]** is a javaScript project.
-
-## 🛠 Built With <a name="built-with"></a>
-
-1. ✅ **HTML**
-2. ✅ **CSS**
-3. ✅ **JavaScript**
-4. ✅ **LightHouse**
-5. ✅ **WebHint**
-6. ✅ **Styelint**
-7. ✅ **ESLint**
-8. ✅ **Git**
-9. ✅ **Github**
-
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
--  **[Home page]**
--  **[Menu Section]**
--  **[Responsive]**
--  **[Good look and feel]**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- ✅ You can see the live demo of this webpage by clicking: [Live Demo Link](https://alibaba2023.github.io/My_Portfolio/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-**To get a local copy up and running, follow these steps.**
-
-1. Download or clone this [repostory](https://github.com/Alibaba2023/My_Portfolio).
-2. Provide a browser.
-3. Open the `index.html` file using webpage browser.
-
-### Prerequisites
-
-**In order to run this project you need:**
-
-- ✔ [Git](https://git-scm.com/downloads) installed in your machine.
-- ✔ Sign in or sign up to your [Github](https://github.com/) account.
-- ✔ A professional editer such as [VS Code](https://code.visualstudio.com/download).
-- ✔ An Updated web browser such as Google Chrome, you can download it from [here](https://www.google.com/chrome/).
-- ✔ [Node.js](https://nodejs.org/en/download) installed in your machine.
-- ✔ Lighthouse.
-- ✔ Webhint
-
-```sh
-npm init -y
-npm install --save-dev hint@7.x
-npx hint .
+```js
+export default tseslint.config({
+  extends: [
+    // Remove ...tseslint.configs.recommended and replace with this
+    ...tseslint.configs.recommendedTypeChecked,
+    // Alternatively, use this for stricter rules
+    ...tseslint.configs.strictTypeChecked,
+    // Optionally, add this for stylistic rules
+    ...tseslint.configs.stylisticTypeChecked,
+  ],
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
 ```
 
-- ✔ Stylelint
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default tseslint.config({
+  plugins: {
+    // Add the react-x and react-dom plugins
+    'react-x': reactX,
+    'react-dom': reactDom,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended typescript rules
+    ...reactX.configs['recommended-typescript'].rules,
+    ...reactDom.configs.recommended.rules,
+  },
+})
 ```
-
-- ✔ ESLint
-
-```sh
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-```
-
-### Setup
-
-- Clone this [repository](https://github.com/Alibaba2023/My_Portfolio) to your desired folder:
-
-- Example commands:
-
-```sh
-  cd [YOUR FOLDER]
-  git clone git@github.com:Alibaba2023/Hardware_Pioneers.git
-```
-
-### Install
-
-- Install this project by cloning or downloading the master branch of this [repository](https://github.com/Alibaba2023/My_Portfolio) and run `index.html` file on the root of repository.
-
-### Usage
-
-- To run the project, execute the following command:
-
-```sh
- cd [YOUR FOLDER]
- git clone https://github.com/Alibaba2023/Awesome-Book
-```
-
-### Run tests
-
-1. WebHint ☑
-
-```
-npx hint .
-```
-
-2. Stylelint ☑
-
-```
-npx stylelint "**/*.{css,scss}"
-```
-
-3. ESLint ☑
-
-```
-npx eslint .
-```
-
-### Deployment
-
-**This project is deployed by the author, no permission for deployment by any other client.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Ali Baba Hussaini (Main Author)**
-
-- GitHub: [@Alibaba2023](https://github.com/Alibaba2023)
-- Twitter: [@AliBabaHu2023](https://twitter.com/AliBabaHu2023)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-baba-hussaini-630607267/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Client interaction]**
-- [ ] **[Deploy to a universal server]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Alibaba2023/My_Portfolio/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project, kindly drop a start for the [repository](https://github.com/Alibaba2023/My_Portfolio);
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank [Microverse](https://www.microverse.org/?grsf=mohammad-a-nbtazu) for providing the opportunity for this project to be done And my family for thier support.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](MIT.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
