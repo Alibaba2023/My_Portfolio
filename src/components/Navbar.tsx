@@ -92,7 +92,7 @@ const Navbar = () => {
               ))}
             </nav>
             <a
-              href="https://drive.google.com/file/d/1y-S4mSLFz1GTuinc3Cs119t7bbIGyRof/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OF-mqbBWs_mNRqFMxEPEVJOmNx7vYwka/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:bg-opacity-10 rounded px-4 py-2 transition-all text-sm"
